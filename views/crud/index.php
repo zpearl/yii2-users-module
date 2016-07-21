@@ -3,7 +3,7 @@
 /**
  * @var yii\base\View $this View
  * @var yii\data\ActiveDataProvider $dataProvider Data provider
- * @var vova07\users\models\backend\UserSearch $searchModel Search model
+ * @var zpearl\users\models\backend\UserSearch $searchModel Search model
  * @var array $roleArray Roles array
  * @var array $statusArray Statuses array
  */

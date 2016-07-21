@@ -2,7 +2,7 @@
 
 /**
  * @var yii\base\View $this View
- * @var vova07\users\models\backend\User $model User
+ * @var zpearl\users\models\backend\User $model User
  */
 
 use vova07\control\Widget;

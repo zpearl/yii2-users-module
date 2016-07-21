@@ -1,14 +1,14 @@
 <?php
 
-namespace vova07\users\models;
+namespace zpearl\users\models;
 
-use vova07\users\traits\ModuleTrait;
+use zpearl\users\traits\ModuleTrait;
 use yii\base\Model;
 use Yii;
 
 /**
  * Class LoginForm
- * @package vova07\users\models
+ * @package zpearl\users\models
  * LoginForm is the model behind the login form.
  *
  * @property string $username Username

@@ -1,10 +1,10 @@
 <?php
 
-namespace vova07\users\controllers;
+namespace zpearl\users\controllers;
 
-use vova07\users\models\frontend\Email;
-use vova07\users\models\frontend\PasswordForm;
-use vova07\users\models\Profile;
+use zpearl\users\models\frontend\Email;
+use zpearl\users\models\frontend\PasswordForm;
+use zpearl\users\models\Profile;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\Response;

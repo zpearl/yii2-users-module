@@ -1,15 +1,15 @@
 <?php
 
-namespace vova07\users\models\frontend;
+namespace zpearl\users\models\frontend;
 
-use vova07\users\models\User;
-use vova07\users\traits\ModuleTrait;
+use zpearl\users\models\User;
+use zpearl\users\traits\ModuleTrait;
 use yii\base\Model;
 use Yii;
 
 /**
  * Class PasswordForm
- * @package vova07\users\models
+ * @package zpearl\users\models
  * PasswordForm is the model behind the change password form.
  *
  * @property string $password Password

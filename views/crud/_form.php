@@ -3,8 +3,8 @@
 /**
  * @var yii\base\View $this View
  * @var yii\widgets\ActiveForm $form Form
- * @var vova07\users\models\backend\User $user User
- * @var vova07\users\models\Profile $profile Profile
+ * @var zpearl\users\models\backend\User $user User
+ * @var zpearl\users\models\Profile $profile Profile
  * @var array $roleArray Roles array
  * @var array $statusArray Statuses array
  */

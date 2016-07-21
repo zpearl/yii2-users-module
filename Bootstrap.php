@@ -1,6 +1,6 @@
 <?php
 
-namespace vova07\users;
+namespace zpearl\users;
 
 use yii\base\BootstrapInterface;
 
@@ -31,7 +31,7 @@ class Bootstrap implements BootstrapInterface
         if (!isset($app->i18n->translations['users']) && !isset($app->i18n->translations['users*'])) {
             $app->i18n->translations['users'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
-                'basePath' => '@vova07/users/messages',
+                'basePath' => '@zpearl/users/messages',
                 'forceTranslation' => true
             ];
         }

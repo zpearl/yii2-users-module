@@ -1,23 +1,23 @@
 <?php
 
-namespace vova07\users\traits;
+namespace zpearl\users\traits;
 
 use Yii;
 
 /**
  * Class ModuleTrait
- * @package vova07\users\traits
+ * @package zpearl\users\traits
  * Implements `getModule` method, to receive current module instance.
  */
 trait ModuleTrait
 {
     /**
-     * @var \vova07\users\Module|null Module instance
+     * @var \zpearl\users\Module|null Module instance
      */
     private $_module;
 
     /**
-     * @return \vova07\users\Module|null Module instance
+     * @return \zpearl\users\Module|null Module instance
      */
     public function getModule()
     {

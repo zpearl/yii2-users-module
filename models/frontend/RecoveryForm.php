@@ -1,15 +1,15 @@
 <?php
 
-namespace vova07\users\models\frontend;
+namespace zpearl\users\models\frontend;
 
-use vova07\users\models\User;
-use vova07\users\traits\ModuleTrait;
+use zpearl\users\models\User;
+use zpearl\users\traits\ModuleTrait;
 use yii\base\Model;
 use Yii;
 
 /**
  * Class RecoveryForm
- * @package vova07\users\models
+ * @package zpearl\users\models
  * RecoveryForm is the model behind the recovery form.
  *
  * @property string $email E-mail

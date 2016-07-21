@@ -1,13 +1,13 @@
 <?php
 
-namespace vova07\users\models;
+namespace zpearl\users\models;
 
-use vova07\users\traits\ModuleTrait;
+use zpearl\users\traits\ModuleTrait;
 use yii\db\ActiveQuery;
 
 /**
  * Class UserQuery
- * @package vova07\users\models\query
+ * @package zpearl\users\models\query
  */
 class UserQuery extends ActiveQuery
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace vova07\users\controllers;
+namespace zpearl\users\controllers;
 
-use vova07\users\models\frontend\Email;
-use vova07\users\models\User;
+use zpearl\users\models\frontend\Email;
+use zpearl\users\models\User;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\HttpException;

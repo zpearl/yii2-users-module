@@ -1,8 +1,8 @@
 <?php
 
-namespace vova07\users\models\backend;
+namespace zpearl\users\models\backend;
 
-use vova07\users\traits\ModuleTrait;
+use zpearl\users\traits\ModuleTrait;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use Yii;

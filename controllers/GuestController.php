@@ -1,14 +1,14 @@
 <?php
 
-namespace vova07\users\controllers;
+namespace zpearl\users\controllers;
 
-use vova07\users\models\frontend\ActivationForm;
-use vova07\users\models\frontend\RecoveryConfirmationForm;
-use vova07\users\models\frontend\RecoveryForm;
-use vova07\users\models\frontend\ResendForm;
-use vova07\users\models\frontend\User;
-use vova07\users\models\LoginForm;
-use vova07\users\models\Profile;
+use zpearl\users\models\frontend\ActivationForm;
+use zpearl\users\models\frontend\RecoveryConfirmationForm;
+use zpearl\users\models\frontend\RecoveryForm;
+use zpearl\users\models\frontend\ResendForm;
+use zpearl\users\models\frontend\User;
+use zpearl\users\models\LoginForm;
+use zpearl\users\models\Profile;
 use yii\filters\AccessControl;
 use yii\helpers\Url;
 use yii\web\Controller;

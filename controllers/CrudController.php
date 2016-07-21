@@ -1,10 +1,10 @@
 <?php
 
-namespace vova07\users\controllers;
+namespace zpearl\users\controllers;
 
-use vova07\users\models\backend\User;
-use vova07\users\models\backend\UserSearch;
-use vova07\users\models\Profile;
+use zpearl\users\models\backend\User;
+use zpearl\users\models\backend\UserSearch;
+use zpearl\users\models\Profile;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;

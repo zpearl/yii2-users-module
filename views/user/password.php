@@ -2,7 +2,7 @@
 
 /**
  * @var yii\base\View $this View
- * @var vova07\users\models\frontend\User $model Model
+ * @var zpearl\users\models\frontend\User $model Model
  */
 
 use yii\helpers\Html;

@@ -1,12 +1,12 @@
 <?php
 
-namespace vova07\users\helpers;
+namespace zpearl\users\helpers;
 
 use Yii;
 
 /**
  * Extended [[yii\helpers\Security|Security]] class.
- * @package vova07\users\helpers
+ * @package zpearl\users\helpers
  */
 class Security
 {

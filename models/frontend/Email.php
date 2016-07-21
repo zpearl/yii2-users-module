@@ -1,16 +1,16 @@
 <?php
 
-namespace vova07\users\models\frontend;
+namespace zpearl\users\models\frontend;
 
-use vova07\users\helpers\Security;
-use vova07\users\models\User;
-use vova07\users\traits\ModuleTrait;
+use zpearl\users\helpers\Security;
+use zpearl\users\models\User;
+use zpearl\users\traits\ModuleTrait;
 use yii\db\ActiveRecord;
 use Yii;
 
 /**
  * Class Email
- * @package vova07\users\models
+ * @package zpearl\users\models
  * Email is the model that is used to change user email address.
  *
  * @property integer $user_id User ID

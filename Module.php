@@ -1,6 +1,6 @@
 <?php
 
-namespace vova07\users;
+namespace zpearl\users;
 
 use Yii;
 
@@ -66,9 +66,9 @@ class Module extends \yii\base\Module
     {
         if ($this->_mail === null) {
             $this->_mail = Yii::$app->getMailer();
-            $this->_mail->htmlLayout = '@vova07/users/mails/layouts/html';
-            $this->_mail->textLayout = '@vova07/users/mails/layouts/text';
-            $this->_mail->viewPath = '@vova07/users/mails/views';
+            $this->_mail->htmlLayout = '@zpearl/users/mails/layouts/html';
+            $this->_mail->textLayout = '@zpearl/users/mails/layouts/text';
+            $this->_mail->viewPath = '@zpearl/users/mails/views';
             if ($this->robotEmail !== null) {
                 $this->_mail->messageConfig['from'] = $this->robotName === null ? $this->robotEmail : [$this->robotEmail => $this->robotName];
             }

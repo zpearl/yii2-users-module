@@ -1,12 +1,12 @@
 <?php
 
-namespace vova07\users\models\frontend;
+namespace zpearl\users\models\frontend;
 
 use Yii;
 
 /**
  * Class User
- * @package vova07\users\models\frontend
+ * @package zpearl\users\models\frontend
  * User is the model behind the signup form.
  *
  * @property string $username Username
@@ -14,7 +14,7 @@ use Yii;
  * @property string $password Password
  * @property string $repassword Repeat password
  */
-class User extends \vova07\users\models\User
+class User extends \zpearl\users\models\User
 {
     /**
      * @var string $password Password

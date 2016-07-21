@@ -1,16 +1,16 @@
 <?php
 
-namespace vova07\users\models\frontend;
+namespace zpearl\users\models\frontend;
 
-use vova07\users\helpers\Security;
-use vova07\users\models\User;
-use vova07\users\traits\ModuleTrait;
+use zpearl\users\helpers\Security;
+use zpearl\users\models\User;
+use zpearl\users\traits\ModuleTrait;
 use yii\base\Model;
 use Yii;
 
 /**
  * Class RecoveryConfirmationForm
- * @package vova07\users\models
+ * @package zpearl\users\models
  * RecoveryConfirmationForm is the model behind the recovery confirmation form.
  *
  * @property string $password Password

@@ -1,8 +1,8 @@
 <?php
 
-namespace vova07\users\controllers;
+namespace zpearl\users\controllers;
 
-use vova07\users\models\LoginForm;
+use zpearl\users\models\LoginForm;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\Response;

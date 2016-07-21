@@ -1,14 +1,14 @@
 <?php
 
-namespace vova07\users\models;
+namespace zpearl\users\models;
 
-use vova07\users\traits\ModuleTrait;
+use zpearl\users\traits\ModuleTrait;
 use yii\db\ActiveRecord;
 use Yii;
 
 /**
  * Class Profile
- * @package vova07\users\models
+ * @package zpearl\users\models
  * User profile model.
  *
  * @property integer $user_id User ID

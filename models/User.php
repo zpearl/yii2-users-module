@@ -1,9 +1,9 @@
 <?php
 
-namespace vova07\users\models;
+namespace zpearl\users\models;
 
-use vova07\users\helpers\Security;
-use vova07\users\traits\ModuleTrait;
+use zpearl\users\helpers\Security;
+use zpearl\users\traits\ModuleTrait;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
@@ -12,7 +12,7 @@ use Yii;
 
 /**
  * Class User
- * @package vova07\users\models
+ * @package zpearl\users\models
  * User model.
  *
  * @property integer $id ID

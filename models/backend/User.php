@@ -1,19 +1,19 @@
 <?php
 
-namespace vova07\users\models\backend;
+namespace zpearl\users\models\backend;
 
 use Yii;
 use yii\helpers\ArrayHelper;
 
 /**
  * Class User
- * @package vova07\users\models\backend
+ * @package zpearl\users\models\backend
  * User administrator model.
  *
  * @property string|null $password Password
  * @property string|null $repassword Repeat password
  */
-class User extends \vova07\users\models\User
+class User extends \zpearl\users\models\User
 {
     /**
      * @var string|null Password

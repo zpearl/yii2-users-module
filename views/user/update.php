@@ -3,7 +3,7 @@
 /**
  * @var yii\base\View $this View
  * @var yii\widgets\ActiveForm $form Form
- * @var vova07\users\models\frontend\User $model Model
+ * @var zpearl\users\models\frontend\User $model Model
  */
 
 use yii\helpers\Html;

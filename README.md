@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist vova07/yii2-users-module "*"
+php composer.phar require --prefer-dist zpearl/yii2-users-module "*"
 ```
 
 or add
 
 ```
-"vova07/yii2-users-module": "*"
+"zpearl/yii2-users-module": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -29,7 +29,7 @@ Add `yii2-users-module` to `module` section of each application config:
 ```php
 'modules' => [
     'users' => [
-        'class' => 'vova07\users\Module',
+        'class' => 'zpearl\users\Module',
         'requireEmailConfirmation' => false, // By default is true. It mean that new user will need to confirm their email address.
         'robotEmail' => 'my@robot.email', // E-mail address from that will be sent all `users` emails.
         'robotName' => 'My Robot Name', // By default is `Yii::$app->name . ' robot'`.
@@ -46,7 +46,7 @@ Add or edit `user` component section:
 ```php
 'user' => [
     'class' => 'yii\web\User',
-    'identityClass' => 'vova07\users\models\User',
+    'identityClass' => 'zpearl\users\models\User',
     'loginUrl' => ['/users/guest/login']  // For frontend app
     // 'loginUrl' => ['/users/admin/login']  // For backend app
 ]
@@ -62,16 +62,16 @@ Add or edit `authManager` component section:
         'admin',
         'superadmin'
     ],
-    'itemFile' => '@vova07/rbac/data/items.php',
-    'assignmentFile' => '@vova07/rbac/data/assignments.php',
-    'ruleFile' => '@vova07/rbac/data/rules.php',
+    'itemFile' => '@zpearl/rbac/data/items.php',
+    'assignmentFile' => '@zpearl/rbac/data/assignments.php',
+    'ruleFile' => '@zpearl/rbac/data/rules.php',
 ]
 ```
 
 Run module migration:
 
 ```php
-php yii migrate --migrationPath=@vova07/users/migrations
+php yii migrate --migrationPath=@zpearl/users/migrations
 ```
 
 Usage
@@ -113,7 +113,7 @@ You'll need to specify universal route `'<_m>/<_c>/<_a>' => '<_m>/<_c>/<_a>'` in
 
 Dependences
 -----------
-- [yii2-control-widget](https://github.com/vova07/yii2-control-widget)
-- [yii2-rbac-module](https://github.com/vova07/yii2-rbac-module)
+- [yii2-control-widget](https://github.com/zpearl/yii2-control-widget)
+- [yii2-rbac-module](https://github.com/zpearl/yii2-rbac-module)
 - [yii2-swiftmailer](https://github.com/yiisoft/yii2/tree/master/extensions/swiftmailer)
 - [yii2](https://github.com/yiisoft/yii2)

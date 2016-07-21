@@ -1,12 +1,12 @@
 <?php
 
-use vova07\users\helpers\Security;
+use zpearl\users\helpers\Security;
 use yii\db\Migration;
 use yii\db\Schema;
 
 /**
  * CLass m140418_204054_create_module_tbl
- * @package vova07\users\migrations
+ * @package zpearl\users\migrations
  *
  * Create module tables.
  *
