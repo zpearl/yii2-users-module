@@ -16,7 +16,7 @@ class Security
      */
     public static function generateExpiringRandomKey()
     {
-        return Yii::$app->getSecurity()->generateRandomKey() . '_' . time();
+        return Yii::$app->getSecurity()->generateRandomString() . '_' . time();
     }
 
     /**
