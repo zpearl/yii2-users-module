@@ -1,18 +1,18 @@
 {
-    "name": "vova07/yii2-users-module",
-    "description": "The users module for Yii framework.",
+    "name": "zpearl/yii2-users-module",
+    "description": "Fork from vova07/yii2-users-module The users module for Yii framework.",
     "type": "yii2-extension",
     "keywords": ["yii2", "yii 2", "users", "user", "module", "modules", "account", "management", "profile", "profiles"],
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Crudu Vasile",
-            "email": "bazillio07@yandex.ru"
+            "name": "Pestov Eugen",
+            "email": "zpearl80@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/vova07/yii2-users-module/issues?state=open",
-        "source": "https://github.com/vova07/yii2-users-module"
+        "issues": "https://github.com/zpearl/yii2-users-module/issues?state=open",
+        "source": "https://github.com/zpearl/yii2-users-module"
     },
     "require": {
         "yiisoft/yii2": "*",
